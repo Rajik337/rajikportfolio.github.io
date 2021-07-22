@@ -1,0 +1,165 @@
+.flex{display:flex; justify-content: space-between;}
+.flex4{display: flex;
+justify-content:space-between }
+.flex4-in{display: flex;
+flex-direction: column;
+justify-content: space-between; }
+
+.links img{padding-left: 10px }
+
+     ;
+}
+.flex5{ display: flex;}
+.rajikimage2{margin-left: 60px;}
+.flex4-in{margin: 80px;}
+.aboutarticle{line-height: 1.5;
+margin-top: 30px; }
+.about-title{margin-top: 31px;}
+
+
+
+
+
+body{:fullscreen ; }
+
+.items-centre{ align-items: center; }
+
+
+.middle a{margin: 30px; }
+
+*{padding: 0px;
+margin: 0px; }
+    .middle a:{color: #ffffff; }
+
+    button{ font-size:larger; 
+        cursor:pointer;}
+    .button{color: #ffffff; margin: 15px;
+    background-color: aquamarine;
+border-radius: 10px; 
+border: 1px solid darkblue ; }
+.button:hover{color: rgb(17, 68, 235); }
+
+    
+
+    header{ padding-left: 150px;
+         background: rgb(0, 0, 0); margin-bottom: 5px ; }
+   
+    header{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; }
+    
+  .container{max-width: 1156px;
+padding: 0 15px;
+margin: 0 auto; }  
+
+
+     .middle a{color: white;
+    text-decoration: none; }
+    .middle a:hover{color: aqua;}
+
+ .flex2{display: flex; 
+  justify-content:center}
+ .name{font-family: 'Times New Roman', Times, serif; font-style:oblique ; font-size: 50px; color: cyan; }
+ .third p{line-height: 1.4; color:#ffffff }
+ .cv{background-color: rgb(0, 0, 0);
+ color:cyan ;  border: 1px solid cyan;
+   width: 150px; height:50px ; margin-top: 8px;  }
+
+  .photo .left img{ width: 400px; height:450px; margin-left: 190px; }
+  .second{color: #ffffff; margin-top: 40px; font-size: 30px; }
+  .blue{margin-bottom: 40px;}
+  .section-2 .rajikimage2 img{border-radius: 10px;  }
+   .photo .left img{border-radius: 4px; }
+
+  .flex3{display:flex; 
+    flex-direction: column;
+justify-content: center; margin-left: 80px;}
+.name{margin-top: 30px;}
+
+.cv:hover{color: #ffffff;
+background-color: aqua; }
+ .top-part{ padding-bottom: 130px ;
+    clip-path: polygon(0 0 , 100% 0 , 100% 100% , 75% 85%, 0 100%);}
+    .servicesection{background-color: rgb(184, 184, 184);padding-bottom: 50px; }
+   
+    .services-heading{text-align: center;
+        margin-bottom: 30px;
+     }
+   .services-article{text-align: center; margin-left: 100px;
+margin-right: 100px; margin-bottom: 6rem;}
+.services-card {display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-column-gap: 10px; 
+grid-row-gap: 10px; margin-left: 50px;
+margin-right:50px;
+margin-bottom: 30px;
+
+justify-content: center;}
+
+ .card1 , .card2 , .card3 ,  .card4 ,.card5 ,.card6{background-color: white;
+padding: 2rem 3rem ;
+position: relative;} 
+
+.servicesection .services-card img{position: absolute;
+    top: -1.8rem;
+    left:40%;
+ }
+ .services-card h3{padding-left: 120px;padding-top: 10px;
+padding-bottom: 23px; }
+.services-card p{line-height: 1.6; }
+.workbutton{background-color: rgb(53, 174, 134); color: white;
+width: 130px;height:80px ;
+border-radius: 8px; }
+  .freelancerpage{text-align: center;}
+.freelancerpage div{padding: 2.2rem; }
+.workbutton:hover{background-color: teal; color: yellowgreen;}
+.freelancerpage{
+    padding-bottom: 20rem;
+    clip-path: polygon(0 0 , 100% 0 ,100% 100% ,75% 80% , 0 100%);}
+    .freelancerpage{background-image: url("../../1st website/youtube images/images/camera.png") ; opacity: 0.70;}
+
+    .review{ text-align: center;}
+    .review .our{ color: cyan; }
+  .naveen{text-align: center;
+    padding-left: 280px ;
+           padding-right: 70px;}
+           
+
+     .review .line{ padding-top: 2rem;
+padding-bottom:2rem ;}
+.review p{margin-right: 4.8rem;
+     padding-top: 4rem;
+line-height: 1.6; }
+.review-image img{border-radius: 100%; }
+
+html{scroll-behavior: smooth;}
+
+
+@media(max-width:1024px){header #main-nav{display: none;}}
+.site-main-wrapper{ position: relative;}
+.hamberger{position: absolute;
+top: 10px;right: 10px;
+z-index: 11;
+background:none;
+border: none;
+ outline: none;
+cursor: pointer;}
+.hamberger img{width: 40px; }
+
+.mobile-niv{ 
+        position: fixed;
+     top: 0px;left:0px;
+background-color: white;
+width: 100%;height: 100%;
+z-index: 1001;
+transform:translateX(-100%); 
+transition: 0.8s;}
+.mobile-niv li{padding: 15px;}
+.mobile-niv .times img{position: fixed; 
+top: 5px; right: 10px;
+background: none;
+border: none;
+}
+.open{transform: translateX(0); }
+.mobile-niv ul li a{ 
+    text-decoration: none;
+color: teal;
+font-size: 2rem;}

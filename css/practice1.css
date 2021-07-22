@@ -1,0 +1,20 @@
+a:link{color: blueviolet; }
+a:visited{color: limegreen; }
+
+   
+   html, body {
+    height: 100%;
+   }
+   body {
+    display: flex;
+    flex-direction: column;
+   }
+   .content {
+    /* Include `0 auto` for best browser compatibility. */
+    flex: 1 0 auto;
+   }
+   .header, .footer {
+    background-color: grey;
+    color: white;
+    flex: none;
+   }
